@@ -1104,7 +1104,9 @@ body:after {
 
 .unit-4 .unit-4-icon span {
   display: block;
-  font-size: 3rem; }
+  font-size: 3rem; 
+  padding-bottom: 50px;
+}
 
 .unit-4 h3 {
   font-size: 20px;
