@@ -18,11 +18,11 @@
   </defs>
   <g fill="none" fill-rule="evenodd" transform="translate(-5 -5)">
     <rect width="82" height="82"/>
-    <use fill="#000" filter="url(#360_video_pause_button_progress-a)" xlink:href="#360_video_pause_button_progress-b"/>
-    <use fill="#000" fill-opacity=".7" xlink:href="#360_video_pause_button_progress-b"/>
-    <use fill="#000" filter="url(#360_video_pause_button_progress-c)" xlink:href="#360_video_pause_button_progress-d"/>
-    <circle cx="41" cy="41" r="25" fill="#000" fill-opacity=".7" stroke="#FFF" stroke-width="2"/>
-    <rect width="8" height="26" x="30" y="28" fill="#FFF" rx="1"/>
-    <rect width="8" height="26" x="44" y="28" fill="#FFF" rx="1"/>
+    <use fill="#2a2731 " filter="url(#360_video_pause_button_progress-a)" xlink:href="#360_video_pause_button_progress-b"/>
+    <use fill="#2a2731 " fill-opacity=".7" xlink:href="#360_video_pause_button_progress-b"/>
+    <use fill="#2a2731 " filter="url(#360_video_pause_button_progress-c)" xlink:href="#360_video_pause_button_progress-d"/>
+    <circle cx="41" cy="41" r="25" fill="#2a2731 " fill-opacity=".7" stroke="#d6d5d6" stroke-width="2"/>
+    <rect width="8" height="26" x="30" y="28" fill="#d6d5d6" rx="1"/>
+    <rect width="8" height="26" x="44" y="28" fill="#d6d5d6" rx="1"/>
   </g>
 </svg>

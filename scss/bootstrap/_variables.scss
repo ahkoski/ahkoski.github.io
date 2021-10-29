@@ -5,7 +5,7 @@
 
 // Color system
 
-$white:    #fff !default;
+$white:    #d6d5d6 !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -15,7 +15,7 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #000 !default;
+$black:    #2a2731  !default;
 
 $grays: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -34,7 +34,7 @@ $grays: map-merge(
   $grays
 );
 
-$blue:    #007bff !default;
+$blue:    #225e9f !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;

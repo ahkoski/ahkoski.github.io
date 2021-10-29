@@ -5,7 +5,7 @@ body {
   font-size: 1em;
   line-height: 1.5;
   color: #555;
-  background: #fff;
+  background: #d6d5d6;
 }
 h1 {
   font-size: 1.5em;
@@ -70,7 +70,7 @@ input:focus {
   color: #999;
 }
 .fgc0 {
-  color: #000;
+  color: #2a2731 ;
 }
 p {
   margin-top: 1em;
