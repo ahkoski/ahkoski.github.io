@@ -31,62 +31,6 @@
     .carousel-control-next-icon {
       background-color: gray;
     }
-
-    .project-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-
-    .project-card {
-      background-color: #f8f9fa;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
-      overflow: hidden;
-      transition: transform 0.2s;
-      width: calc(50% - 10px);
-      margin-bottom: 20px;
-    }
-
-    .project-card img,
-    .project-card video {
-      width: 100%;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .project-card h3 {
-      margin-top: 15px;
-      font-size: 1.5em;
-    }
-
-    .project-card p {
-      padding: 0 15px;
-    }
-
-    .project-card .project-details {
-      display: none;
-      padding: 15px;
-    }
-
-    .project-card.expanded .project-details {
-      display: block;
-    }
-
-    .expand-btn,
-    .collapse-btn {
-      background: none;
-      border: none;
-      color: #007bff;
-      cursor: pointer;
-      font-weight: bold;
-      margin: 15px;
-      text-align: left;
-    }
-
-    .expand-btn:focus,
-    .collapse-btn:focus {
-      outline: none;
-    }
   </style>
 </head>
 
@@ -157,23 +101,31 @@
             <h3 class="text-center">eLearning Modules (SCORM)</h3>
             <br>
           </div>
-          <div class="project-grid">
-            <div class="project-card">
-              <img src="images/rrs1.png" alt="Document Management System Training">
-              <h3>Document Management System Training</h3>
-              <p>I developed a comprehensive training and assessment module focused on the essentials of using our document management system, aimed at assistants across all offices. The module, part of an enrichment program, enrolled approximately 125 users within a 3 month period.</p>
-              <div class="project-details">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <h3>Document Management System Training</h3>
+                <p>I developed a comprehensive training and assessment module focused on the essentials of using our document management system, aimed at assistants across all offices. The module, part of an enrichment program, enrolled approximately 125 users within a 3 month period.</p>
+                <br>
+                <img src="images/rrs1.png" alt="Lesson 1" class="img-fluid mb-4">
+              </div>
+              <div>
                 <p><b>Solution</b>: Detailed training materials and assessments.</p>
                 <p><b>Results</b>: Enhanced document management proficiency and streamlined processes across the organization.</p>
                 <p><b>Created Date</b>: 2020</p>
                 <p><a href="https://ahkoski.github.io/portfolio-1/index.html">View</a></p>
               </div>
             </div>
-            <div class="project-card">
-              <img src="images/rrs2.png" alt="Microsoft Teams">
-              <h3>Microsoft Teams</h3>
-              <p>I created an interactive, learner-centric module covering the finer points of meetings within Microsoft Teams. From 8/2020 - 12/2020, over 460 users completed this module.</p>
-              <div class="project-details">
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <h3>Microsoft Teams</h3>
+                <p>I created an interactive, learner-centric module covering the finer points of meetings within Microsoft Teams. From 8/2020 - 12/2020, over 460 users completed this module.</p>
+                <br>
+                <img src="images/rrs2.png" alt="Lesson 1" class="img-fluid mb-4">
+              </div>
+              <div>
                 <p><b>Solution</b>: Interactive lessons and practical exercises.</p>
                 <p><b>Results</b>: Improved team collaboration and efficiency in using Microsoft Teams for meetings.</p>
                 <p><b>Created Date</b>: 2020</p>
@@ -189,24 +141,32 @@
             <h3 class="text-center">Learning Videos</h3>
             <br>
           </div>
-          <div class="project-grid">
-            <div class="project-card">
-              <video controls class="img-fluid mb-4">
-                <source src="docs/coming_soon!_roar's_customer_api (1080p).mp4" type="video/mp4">
-              </video>
-              <h3>Intro to ROAR's Onboarding</h3>
-              <p>I developed an introductory video for ROAR's onboarding process, providing an overview of key features and functionalities to new users.</p>
-              <div class="project-details">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <h3>Intro to ROAR's Onboarding</h3>
+                <p>I developed an introductory video for ROAR's onboarding process, providing an overview of key features and functionalities to new users.</p>
+                <br>
+                <video controls class="img-fluid mb-4">
+                  <source src="docs/Intro_to_ROAR_Onboarding.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div>
                 <p><b>Solution</b>: Engaging introductory video with step-by-step guidance.</p>
                 <p><b>Results</b>: Improved onboarding experience and user familiarity with ROAR's platform.</p>
                 <p><b>Created Date</b>: 2024</p>
               </div>
             </div>
-            <div class="project-card">
-              <img src="images/rrs_time.png" alt="Time Management System">
-              <h3>Time Management System</h3>
-              <p>I produced a visual representation video explaining the intricacies of entering time in our Time Management and Billing system. This video, part of a larger training module, was viewed by approximately 300 users.</p>
-              <div class="project-details">
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <h3>Time Management System</h3>
+                <p>I produced a visual representation video explaining the intricacies of entering time in our Time Management and Billing system. This video, part of a larger training module, was viewed by approximately 300 users.</p>
+                <br>
+                <img src="images/rrs_time.png" alt="Lesson 3" class="img-fluid mb-4">
+              </div>
+              <div>
                 <p><b>Solution</b>: Clear, visual guidance on time entry processes.</p>
                 <p><b>Results</b>: Increased user understanding and efficiency in time entry processes.</p>
                 <p><b>Created Date</b>: 2020</p>
@@ -222,24 +182,32 @@
             <h3 class="text-center">Promotional Videos</h3>
             <br>
           </div>
-          <div class="project-grid">
-            <div class="project-card">
-              <video controls class="img-fluid mb-4">
-                <source src="docs/coming_soon!_roar's_customer_api (1080p).mp4" type="video/mp4">
-              </video>
-              <h3>Feature Teaser</h3>
-              <p>I produced a promotional video to tease an upcoming feature for prospects, as requested by product marketing.</p>
-              <div class="project-details">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <h3>Feature Teaser</h3>
+                <p>I produced a promotional video to tease an upcoming feature for prospects, as requested by product marketing.</p>
+                <br>
+                <video controls class="img-fluid mb-4">
+                  <source src="docs/coming_soon!_roar's_customer_api (1080p).mp4" type="video/mp4">
+                </video>
+              </div>
+              <div>
                 <p><b>Solution</b>: Exciting preview of a new feature.</p>
                 <p><b>Results</b>: Generated interest and anticipation among prospects for the new feature.</p>
                 <p><b>Created Date</b>: 2020</p>
               </div>
             </div>
-            <div class="project-card">
-              <img src="images/rrs_intro.png" alt="Learning and Development Department">
-              <h3>Learning and Development Department</h3>
-              <p>I created a short promotional video for the Learning and Development Department, to be shown at meetings and hosted on the intranet.</p>
-              <div class="project-details">
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <h3>Learning and Development Department</h3>
+                <p>I created a short promotional video for the Learning and Development Department, to be shown at meetings and hosted on the intranet.</p>
+                <br>
+                <img src="images/rrs_intro.png" alt="Lesson 4" class="img-fluid mb-4">
+              </div>
+              <div>
                 <p><b>Solution</b>: Engaging promotional content.</p>
                 <p><b>Results</b>: Raised awareness and engagement with Learning and Development activities.</p>
                 <p><b>Created Date</b>: 2020</p>
@@ -254,23 +222,30 @@
           <div class="col-12">
             <h3 class="text-center">Supporting Materials</h3>
           </div>
-          <div class="project-grid">
-            <div class="project-card">
-              <img src="images/rrs_plan.png" alt="Project Plan: Onboarding Team Project">
-              <h3>Project Plan: Onboarding Team Project</h3>
-              <p>This is a project plan I was using to plan out a long-term project for an onboarding team, which included plans for several learning videos and interactive eLearning modules to support in-person training initiatives.</p>
-              <div class="project-details">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <h3>Project Plan: Onboarding Team Project</h3>
+                <p>This is a project plan I was using to plan out a long-term project for an onboarding team, which included plans for several learning videos and interactive eLearning modules to support in-person training initiatives.</p>
+                <br>
+                <img src="images/rrs_plan.png" alt="Project Plan" class="img-fluid mb-4">
+              </div>
+              <div>
                 <p><b>Solution</b>: Detailed project planning and execution.</p>
                 <p><b>Results</b>: Improved onboarding efficiency and effectiveness.</p>
                 <p><b>Created Date</b>: 2023</p>
                 <p><a href="docs/Project_Plan.xlsx">Download</a></p>
               </div>
             </div>
-            <div class="project-card">
-              <img src="images/rrs_story.png" alt="Storyboard: Demo Videos">
-              <h3>Storyboard: Demo Videos</h3>
-              <p>This is a storyboard created for four demo videos under an umbrella of a larger topic. The videos were used within an interactive eLearning module to accompany an assessment in New Hire Orientation and an ongoing enrichment program.</p>
-              <div class="project-details">
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
+            <div class="unit-4">
+              <div class="unit-4-icon">
+                <h3>Storyboard: Demo Videos</h3>
+                <p>This is a storyboard created for four demo videos under an umbrella of a larger topic. The videos were used within an interactive eLearning module to accompany an assessment in New Hire Orientation and an ongoing enrichment program.</p>
+                <img src="images/rrs_story.png" alt="Storyboard" class="img-fluid mb-4">
+              </div>
+              <div>
                 <p><b>Solution</b>: Structured and engaging demo videos.</p>
                 <p><b>Results</b>: Enhanced learning experience through well-structured and engaging demo videos.</p>
                 <p><b>Created Date</b>: 2020</p>
@@ -448,30 +423,6 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/main.js"></script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var projectCards = document.querySelectorAll(".project-card");
-
-      projectCards.forEach(function (card) {
-        var expandBtn = card.querySelector(".expand-btn");
-        var collapseBtn = card.querySelector(".collapse-btn");
-        var details = card.querySelector(".project-details");
-
-        expandBtn.addEventListener("click", function () {
-          details.style.display = "block";
-          expandBtn.style.display = "none";
-          collapseBtn.style.display = "block";
-        });
-
-        collapseBtn.addEventListener("click", function () {
-          details.style.display = "none";
-          expandBtn.style.display = "block";
-          collapseBtn.style.display = "none";
-        });
-      });
-    });
-  </script>
 
 </body>
 
