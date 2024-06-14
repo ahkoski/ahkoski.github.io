@@ -19,53 +19,73 @@
   <link rel="stylesheet" href="css/style.css">
 
   <style>
+    .carousel-inner img,
+    .carousel-inner video {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      max-height: 500px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: gray;
+    }
+
     .project-grid {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
-      justify-content: center;
     }
 
     .project-card {
-      background-color: #fff;
-      border: 1px solid #ddd;
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
       overflow: hidden;
-      width: 30%;
-      transition: all 0.3s ease-in-out;
+      transition: transform 0.2s;
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
     }
 
-    .project-card img {
+    .project-card img,
+    .project-card video {
       width: 100%;
-      height: auto;
+      border-bottom: 1px solid #ddd;
     }
 
     .project-card h3 {
-      margin: 16px;
+      margin-top: 15px;
+      font-size: 1.5em;
     }
 
     .project-card p {
-      margin: 16px;
+      padding: 0 15px;
     }
 
-    .expand-btn,
-    .collapse-btn {
-      background-color: #007bff;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      margin: 16px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    .project-details {
+    .project-card .project-details {
       display: none;
-      transition: all 0.3s ease-in-out;
+      padding: 15px;
     }
 
     .project-card.expanded .project-details {
       display: block;
+    }
+
+    .expand-btn,
+    .collapse-btn {
+      background: none;
+      border: none;
+      color: #007bff;
+      cursor: pointer;
+      font-weight: bold;
+      margin: 15px;
+      text-align: left;
+    }
+
+    .expand-btn:focus,
+    .collapse-btn:focus {
+      outline: none;
     }
   </style>
 </head>
@@ -142,24 +162,22 @@
               <img src="images/rrs1.png" alt="Document Management System Training">
               <h3>Document Management System Training</h3>
               <p>I developed a comprehensive training and assessment module focused on the essentials of using our document management system, aimed at assistants across all offices. The module, part of an enrichment program, enrolled approximately 125 users within a 3 month period.</p>
-              <button class="expand-btn">Read More</button>
               <div class="project-details">
                 <p><b>Solution</b>: Detailed training materials and assessments.</p>
                 <p><b>Results</b>: Enhanced document management proficiency and streamlined processes across the organization.</p>
                 <p><b>Created Date</b>: 2020</p>
-                <button class="collapse-btn">Show Less</button>
+                <p><a href="https://ahkoski.github.io/portfolio-1/index.html">View</a></p>
               </div>
             </div>
             <div class="project-card">
               <img src="images/rrs2.png" alt="Microsoft Teams">
               <h3>Microsoft Teams</h3>
               <p>I created an interactive, learner-centric module covering the finer points of meetings within Microsoft Teams. From 8/2020 - 12/2020, over 460 users completed this module.</p>
-              <button class="expand-btn">Read More</button>
               <div class="project-details">
-                <p>Solution: Interactive lessons and practical exercises.</p>
-                <p>Results: Improved team collaboration and efficiency in using Microsoft Teams for meetings.</p>
-                <p>Created Date: 2020</p>
-                <button class="collapse-btn">Show Less</button>
+                <p><b>Solution</b>: Interactive lessons and practical exercises.</p>
+                <p><b>Results</b>: Improved team collaboration and efficiency in using Microsoft Teams for meetings.</p>
+                <p><b>Created Date</b>: 2020</p>
+                <p><a href="https://ahkoski.github.io/portfolio-2/index.html">View</a></p>
               </div>
             </div>
           </div>
@@ -169,31 +187,30 @@
         <div class="row">
           <div class="col-12">
             <h3 class="text-center">Learning Videos</h3>
-          <br>
+            <br>
           </div>
           <div class="project-grid">
             <div class="project-card">
-              <img src="images/rrs_time.png" alt="Intro to ROAR's Onboarding">
+              <video controls class="img-fluid mb-4">
+                <source src="docs/coming_soon!_roar's_customer_api (1080p).mp4" type="video/mp4">
+              </video>
               <h3>Intro to ROAR's Onboarding</h3>
               <p>I developed an introductory video for ROAR's onboarding process, providing an overview of key features and functionalities to new users.</p>
-              <button class="expand-btn">Read More</button>
               <div class="project-details">
-                <p>Solution: Engaging introductory video with step-by-step guidance.</p>
-                <p>Results: Improved onboarding experience and user familiarity with ROAR's platform.</p>
-                <p>Created Date: 2024</p>
-                <button class="collapse-btn">Show Less</button>
+                <p><b>Solution</b>: Engaging introductory video with step-by-step guidance.</p>
+                <p><b>Results</b>: Improved onboarding experience and user familiarity with ROAR's platform.</p>
+                <p><b>Created Date</b>: 2024</p>
               </div>
             </div>
             <div class="project-card">
               <img src="images/rrs_time.png" alt="Time Management System">
               <h3>Time Management System</h3>
               <p>I produced a visual representation video explaining the intricacies of entering time in our Time Management and Billing system. This video, part of a larger training module, was viewed by approximately 300 users.</p>
-              <button class="expand-btn">Read More</button>
               <div class="project-details">
-                <p>Solution: Clear, visual guidance on time entry processes.</p>
-                <p>Results: Increased user understanding and efficiency in time entry processes.</p>
-                <p>Created Date: 2020</p>
-                <button class="collapse-btn">Show Less</button>
+                <p><b>Solution</b>: Clear, visual guidance on time entry processes.</p>
+                <p><b>Results</b>: Increased user understanding and efficiency in time entry processes.</p>
+                <p><b>Created Date</b>: 2020</p>
+                <p><a href="docs/TimeEntry.mp4">View</a></p>
               </div>
             </div>
           </div>
@@ -203,31 +220,30 @@
         <div class="row">
           <div class="col-12">
             <h3 class="text-center">Promotional Videos</h3>
-          <br>
+            <br>
           </div>
           <div class="project-grid">
             <div class="project-card">
-              <img src="images/rrs_intro.png" alt="Feature Teaser">
+              <video controls class="img-fluid mb-4">
+                <source src="docs/coming_soon!_roar's_customer_api (1080p).mp4" type="video/mp4">
+              </video>
               <h3>Feature Teaser</h3>
               <p>I produced a promotional video to tease an upcoming feature for prospects, as requested by product marketing.</p>
-              <button class="expand-btn">Read More</button>
               <div class="project-details">
-                <p>Solution: Exciting preview of a new feature.</p>
-                <p>Results: Generated interest and anticipation among prospects for the new feature.</p>
-                <p>Created Date: 2020</p>
-                <button class="collapse-btn">Show Less</button>
+                <p><b>Solution</b>: Exciting preview of a new feature.</p>
+                <p><b>Results</b>: Generated interest and anticipation among prospects for the new feature.</p>
+                <p><b>Created Date</b>: 2020</p>
               </div>
             </div>
             <div class="project-card">
               <img src="images/rrs_intro.png" alt="Learning and Development Department">
               <h3>Learning and Development Department</h3>
               <p>I created a short promotional video for the Learning and Development Department, to be shown at meetings and hosted on the intranet.</p>
-              <button class="expand-btn">Read More</button>
               <div class="project-details">
-                <p>Solution: Engaging promotional content.</p>
-                <p>Results: Raised awareness and engagement with Learning and Development activities.</p>
-                <p>Created Date: 2020</p>
-                <button class="collapse-btn">Show Less</button>
+                <p><b>Solution</b>: Engaging promotional content.</p>
+                <p><b>Results</b>: Raised awareness and engagement with Learning and Development activities.</p>
+                <p><b>Created Date</b>: 2020</p>
+                <p><a href="docs/Promo_LD.mp4">View</a></p>
               </div>
             </div>
           </div>
@@ -243,26 +259,22 @@
               <img src="images/rrs_plan.png" alt="Project Plan: Onboarding Team Project">
               <h3>Project Plan: Onboarding Team Project</h3>
               <p>This is a project plan I was using to plan out a long-term project for an onboarding team, which included plans for several learning videos and interactive eLearning modules to support in-person training initiatives.</p>
-              <button class="expand-btn">Read More</button>
               <div class="project-details">
-                <p>Solution: Detailed project planning and execution.</p>
-                <p>Results: Improved onboarding efficiency and effectiveness.</p>
-                <p>Created Date: 2023</p>
+                <p><b>Solution</b>: Detailed project planning and execution.</p>
+                <p><b>Results</b>: Improved onboarding efficiency and effectiveness.</p>
+                <p><b>Created Date</b>: 2023</p>
                 <p><a href="docs/Project_Plan.xlsx">Download</a></p>
-                <button class="collapse-btn">Show Less</button>
               </div>
             </div>
             <div class="project-card">
               <img src="images/rrs_story.png" alt="Storyboard: Demo Videos">
               <h3>Storyboard: Demo Videos</h3>
               <p>This is a storyboard created for four demo videos under an umbrella of a larger topic. The videos were used within an interactive eLearning module to accompany an assessment in New Hire Orientation and an ongoing enrichment program.</p>
-              <button class="expand-btn">Read More</button>
               <div class="project-details">
-                <p>Solution: Structured and engaging demo videos.</p>
-                <p>Results: Enhanced learning experience through well-structured and engaging demo videos.</p>
-                <p>Created Date: 2020</p>
+                <p><b>Solution</b>: Structured and engaging demo videos.</p>
+                <p><b>Results</b>: Enhanced learning experience through well-structured and engaging demo videos.</p>
+                <p><b>Created Date</b>: 2020</p>
                 <p><a href="docs/Storyboard.docx">Download</a></p>
-                <button class="collapse-btn">Show Less</button>
               </div>
             </div>
           </div>
@@ -438,17 +450,25 @@
   <script src="js/main.js"></script>
 
   <script>
-    document.querySelectorAll('.expand-btn').forEach(button => {
-      button.addEventListener('click', () => {
-        const card = button.closest('.project-card');
-        card.classList.add('expanded');
-      });
-    });
+    document.addEventListener("DOMContentLoaded", function () {
+      var projectCards = document.querySelectorAll(".project-card");
 
-    document.querySelectorAll('.collapse-btn').forEach(button => {
-      button.addEventListener('click', () => {
-        const card = button.closest('.project-card');
-        card.classList.remove('expanded');
+      projectCards.forEach(function (card) {
+        var expandBtn = card.querySelector(".expand-btn");
+        var collapseBtn = card.querySelector(".collapse-btn");
+        var details = card.querySelector(".project-details");
+
+        expandBtn.addEventListener("click", function () {
+          details.style.display = "block";
+          expandBtn.style.display = "none";
+          collapseBtn.style.display = "block";
+        });
+
+        collapseBtn.addEventListener("click", function () {
+          details.style.display = "none";
+          expandBtn.style.display = "block";
+          collapseBtn.style.display = "none";
+        });
       });
     });
   </script>
