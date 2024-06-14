@@ -39,6 +39,7 @@
       border-radius: 8px;
       margin-bottom: 20px;
       height: 100%;
+      padding: 10px;
     }
 
     .project-details {
@@ -95,23 +96,16 @@
       background: #f8f9fa;
     }
 
-    .project-card p,
-    .project-card .project-details {
-      padding: 10px;
+    .project-card .collapse-content {
+      display: none;
+    }
+
+    .project-card .collapse-content.show {
+      display: block;
     }
 
     .carousel-indicators li {
       background-color: gray;
-    }
-
-    .show-more-content {
-      display: none;
-    }
-
-    .show-more-button {
-      cursor: pointer;
-      color: #007bff;
-      text-decoration: underline;
     }
   </style>
 </head>
@@ -185,7 +179,7 @@
         </div>
 
         <!-- eLearning Modules -->
-        <div id="elearning-modules" class="row">
+        <div class="row" id="elearning-modules">
           <div class="col-12">
             <h3 class="text-center">eLearning Modules (SCORM)</h3>
             <br>
@@ -201,11 +195,13 @@
                 </a>
               </div>
               <div class="project-details">
-                <p><span class="show-more-button">Show more</span></p>
-                <div class="show-more-content">
-                  <p><b>Solution</b>: Detailed training materials and assessments.</p>
-                  <p><b>Results</b>: Enhanced document management proficiency and streamlined processes across the organization.</p>
-                  <p><b>Created Date</b>: 2020</p>
+                <p><b>Solution</b>: Detailed training materials and assessments.</p>
+                <p><b>Results</b>: Enhanced document management proficiency and streamlined processes across the organization.</p>
+                <p><b>Created Date</b>: 2020</p>
+                <a href="#" class="show-more">Show More</a>
+                <div class="collapse-content">
+                  <p>Additional content goes here.</p>
+                  <a href="#" class="show-less">Show Less</a>
                 </div>
               </div>
             </div>
@@ -221,11 +217,13 @@
                 </a>
               </div>
               <div class="project-details">
-                <p><span class="show-more-button">Show more</span></p>
-                <div class="show-more-content">
-                  <p><b>Solution</b>: Interactive lessons and practical exercises.</p>
-                  <p><b>Results</b>: Improved team collaboration and efficiency in using Microsoft Teams for meetings.</p>
-                  <p><b>Created Date</b>: 2020</p>
+                <p><b>Solution</b>: Interactive lessons and practical exercises.</p>
+                <p><b>Results</b>: Improved team collaboration and efficiency in using Microsoft Teams for meetings.</p>
+                <p><b>Created Date</b>: 2020</p>
+                <a href="#" class="show-more">Show More</a>
+                <div class="collapse-content">
+                  <p>Additional content goes here.</p>
+                  <a href="#" class="show-less">Show Less</a>
                 </div>
               </div>
             </div>
@@ -233,7 +231,7 @@
         </div>
 
         <!-- Learning Videos -->
-        <div id="learning-videos" class="row">
+        <div class="row" id="learning-videos">
           <div class="col-12">
             <h3 class="text-center">Learning Videos</h3>
             <br>
@@ -249,11 +247,13 @@
                 </video>
               </div>
               <div class="project-details">
-                <p><span class="show-more-button">Show more</span></p>
-                <div class="show-more-content">
-                  <p><b>Solution</b>: Engaging introductory video with step-by-step guidance.</p>
-                  <p><b>Results</b>: Improved onboarding experience and user familiarity with ROAR's platform.</p>
-                  <p><b>Created Date</b>: 2024</p>
+                <p><b>Solution</b>: Engaging introductory video with step-by-step guidance.</p>
+                <p><b>Results</b>: Improved onboarding experience and user familiarity with ROAR's platform.</p>
+                <p><b>Created Date</b>: 2024</p>
+                <a href="#" class="show-more">Show More</a>
+                <div class="collapse-content">
+                  <p>Additional content goes here.</p>
+                  <a href="#" class="show-less">Show Less</a>
                 </div>
               </div>
             </div>
@@ -269,11 +269,13 @@
                 </video>
               </div>
               <div class="project-details">
-                <p><span class="show-more-button">Show more</span></p>
-                <div class="show-more-content">
-                  <p><b>Solution</b>: Clear, visual guidance on time entry processes.</p>
-                  <p><b>Results</b>: Increased user understanding and efficiency in time entry processes.</p>
-                  <p><b>Created Date</b>: 2020</p>
+                <p><b>Solution</b>: Clear, visual guidance on time entry processes.</p>
+                <p><b>Results</b>: Increased user understanding and efficiency in time entry processes.</p>
+                <p><b>Created Date</b>: 2020</p>
+                <a href="#" class="show-more">Show More</a>
+                <div class="collapse-content">
+                  <p>Additional content goes here.</p>
+                  <a href="#" class="show-less">Show Less</a>
                 </div>
               </div>
             </div>
@@ -281,7 +283,7 @@
         </div>
 
         <!-- Promotional Videos -->
-        <div id="promotional-videos" class="row">
+        <div class="row" id="promotional-videos">
           <div class="col-12">
             <h3 class="text-center">Promotional Videos</h3>
             <br>
@@ -297,11 +299,13 @@
                 </video>
               </div>
               <div class="project-details">
-                <p><span class="show-more-button">Show more</span></p>
-                <div class="show-more-content">
-                  <p><b>Solution</b>: Exciting preview of a new feature.</p>
-                  <p><b>Results</b>: Generated interest and anticipation among prospects for the new feature.</p>
-                  <p><b>Created Date</b>: 2023</p>
+                <p><b>Solution</b>: Exciting preview of a new feature.</p>
+                <p><b>Results</b>: Generated interest and anticipation among prospects for the new feature.</p>
+                <p><b>Created Date</b>: 2023</p>
+                <a href="#" class="show-more">Show More</a>
+                <div class="collapse-content">
+                  <p>Additional content goes here.</p>
+                  <a href="#" class="show-less">Show Less</a>
                 </div>
               </div>
             </div>
@@ -317,11 +321,13 @@
                 </video>
               </div>
               <div class="project-details">
-                <p><span class="show-more-button">Show more</span></p>
-                <div class="show-more-content">
-                  <p><b>Solution</b>: Engaging promotional content.</p>
-                  <p><b>Results</b>: Raised awareness and engagement with Learning and Development activities.</p>
-                  <p><b>Created Date</b>: 2020</p>
+                <p><b>Solution</b>: Engaging promotional content.</p>
+                <p><b>Results</b>: Raised awareness and engagement with Learning and Development activities.</p>
+                <p><b>Created Date</b>: 2020</p>
+                <a href="#" class="show-more">Show More</a>
+                <div class="collapse-content">
+                  <p>Additional content goes here.</p>
+                  <a href="#" class="show-less">Show Less</a>
                 </div>
               </div>
             </div>
@@ -329,7 +335,7 @@
         </div>
 
         <!-- Supporting Materials -->
-        <div id="supporting-materials" class="row">
+        <div class="row" id="supporting-materials">
           <div class="col-12">
             <h3 class="text-center">Supporting Materials</h3>
           </div>
@@ -344,11 +350,13 @@
                 </a>
               </div>
               <div class="project-details">
-                <p><span class="show-more-button">Show more</span></p>
-                <div class="show-more-content">
-                  <p><b>Solution</b>: Detailed project planning and execution.</p>
-                  <p><b>Results</b>: Improved onboarding efficiency and effectiveness.</p>
-                  <p><b>Created Date</b>: 2020</p>
+                <p><b>Solution</b>: Detailed project planning and execution.</p>
+                <p><b>Results</b>: Improved onboarding efficiency and effectiveness.</p>
+                <p><b>Created Date</b>: 2020</p>
+                <a href="#" class="show-more">Show More</a>
+                <div class="collapse-content">
+                  <p>Additional content goes here.</p>
+                  <a href="#" class="show-less">Show Less</a>
                 </div>
               </div>
             </div>
@@ -364,11 +372,13 @@
                 </a>
               </div>
               <div class="project-details">
-                <p><span class="show-more-button">Show more</span></p>
-                <div class="show-more-content">
-                  <p><b>Solution</b>: Structured and engaging demo videos.</p>
-                  <p><b>Results</b>: Enhanced learning experience through well-structured and engaging demo videos.</p>
-                  <p><b>Created Date</b>: 2020</p>
+                <p><b>Solution</b>: Structured and engaging demo videos.</p>
+                <p><b>Results</b>: Enhanced learning experience through well-structured and engaging demo videos.</p>
+                <p><b>Created Date</b>: 2020</p>
+                <a href="#" class="show-more">Show More</a>
+                <div class="collapse-content">
+                  <p>Additional content goes here.</p>
+                  <a href="#" class="show-less">Show Less</a>
                 </div>
               </div>
             </div>
@@ -444,31 +454,31 @@
               <img src="images/Copy of Risk and Compliance (850 x 1250 px) (2).gif" alt="Risk and Compliance GIF 2" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="images/RO ROAR Feature Announcement/1.png" alt="Feature Announcement 1" class="d-block w-100">
+              <img src="images/RO ROAR Feature Announcement/1.png" alt="RO ROAR Feature Announcement 1" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="images/RO ROAR Feature Announcement/2.png" alt="Feature Announcement 2" class="d-block w-100">
+              <img src="images/RO ROAR Feature Announcement/2.png" alt="RO ROAR Feature Announcement 2" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="images/RO ROAR Feature Announcement/3.png" alt="Feature Announcement 3" class="d-block w-100">
+              <img src="images/RO ROAR Feature Announcement/3.png" alt="RO ROAR Feature Announcement 3" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="images/RO ROAR Feature Announcement/4.png" alt="Feature Announcement 4" class="d-block w-100">
+              <img src="images/RO ROAR Feature Announcement/4.png" alt="RO ROAR Feature Announcement 4" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="images/RO Customer Quote Templates (1)/1.png" alt="Customer Quote 1" class="d-block w-100">
+              <img src="images/RO Customer Quote Templates (1)/1.png" alt="RO Customer Quote Templates 1" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="images/RO Customer Quote Templates (1)/2.png" alt="Customer Quote 2" class="d-block w-100">
+              <img src="images/RO Customer Quote Templates (1)/2.png" alt="RO Customer Quote Templates 2" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="images/RO Customer Quote Templates (1)/3.png" alt="Customer Quote 3" class="d-block w-100">
+              <img src="images/RO Customer Quote Templates (1)/3.png" alt="RO Customer Quote Templates 3" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="images/RO Customer Quote Templates (1)/4.png" alt="Customer Quote 4" class="d-block w-100">
+              <img src="images/RO Customer Quote Templates (1)/4.png" alt="RO Customer Quote Templates 4" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="images/RO Customer Quote Templates (1)/5.png" alt="Customer Quote 5" class="d-block w-100">
+              <img src="images/RO Customer Quote Templates (1)/5.png" alt="RO Customer Quote Templates 5" class="d-block w-100">
             </div>
           </div>
           <a class="carousel-control-prev" href="#learningMaterialCarousel" role="button" data-slide="prev">
@@ -656,24 +666,22 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/main.js"></script>
-
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      var showMoreButtons = document.querySelectorAll(".show-more-button");
-      showMoreButtons.forEach(function (button) {
-        button.addEventListener("click", function () {
-          var content = this.parentElement.nextElementSibling;
-          if (content.style.display === "none" || content.style.display === "") {
-            content.style.display = "block";
-            this.innerText = "Show less";
-          } else {
-            content.style.display = "none";
-            this.innerText = "Show more";
-          }
-        });
+    $(document).ready(function () {
+      $('.show-more').click(function (e) {
+        e.preventDefault();
+        $(this).siblings('.collapse-content').addClass('show');
+        $(this).hide();
+      });
+
+      $('.show-less').click(function (e) {
+        e.preventDefault();
+        $(this).parent('.collapse-content').removeClass('show');
+        $(this).parent('.collapse-content').siblings('.show-more').show();
       });
     });
   </script>
 </body>
 
 </html>
+
