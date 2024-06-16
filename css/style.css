@@ -2101,7 +2101,7 @@ figure figcaption {
 
 .carousel-indicators {
   position: absolute;
-  bottom: -30px; /* Adjust the value to position below the carousel */
+  bottom: -50px; /* Adjust this value to position the indicators */
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -2114,14 +2114,7 @@ figure figcaption {
 
 .carousel-indicators li {
   display: inline-block;
-  width: auto;
-  height: auto;
-  margin: 1px;
-  text-indent: -999px;
-  cursor: pointer;
-  background-color: transparent;
-  border: 0;
-  transition: opacity 0.6s ease;
+  margin: 5px;
 }
 
 .carousel-indicators li img {
