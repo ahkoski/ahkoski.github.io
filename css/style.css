@@ -2102,11 +2102,13 @@ figure figcaption {
 .carousel-indicators {
   position: relative;
   bottom: -20px; /* Adjust to move below the carousel */
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel-indicators li {
