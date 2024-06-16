@@ -2103,6 +2103,8 @@ figure figcaption {
   display: flex;
   justify-content: center;
   margin-top: 20px; /* Adjust based on your design */
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .carousel-indicators li {
@@ -2111,19 +2113,25 @@ figure figcaption {
 }
 
 .carousel-indicators li img {
-  width: 60px;
-  height: 40px;
-  display: inline-block;
+  width: 50px; /* Size of inactive indicators */
+  height: 30px;
   opacity: 0.7;
- /* border-radius: 4px; Optional: Add border radius for better aesthetics */
+  transition: all 0.3s ease;
+  border-radius: 4px; /* Optional: Add border radius for better aesthetics */
 }
 
 .carousel-indicators li.active img {
+  width: 60px; /* Size of active indicator */
+  height: 40px;
   opacity: 1;
 }
 
 @media (max-width: 768px) {
   .carousel-indicators li img {
+    width: 40px;
+    height: 25px;
+  }
+  .carousel-indicators li.active img {
     width: 50px;
     height: 30px;
   }
@@ -2131,7 +2139,11 @@ figure figcaption {
 
 @media (max-width: 576px) {
   .carousel-indicators li img {
-    width: 40px;
+    width: 30px;
     height: 20px;
+  }
+  .carousel-indicators li.active img {
+    width: 40px;
+    height: 25px;
   }
 }
