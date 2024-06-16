@@ -2100,31 +2100,66 @@ figure figcaption {
 
 
 .carousel-indicators {
-  position: relative;
-  bottom: -20px; /* Adjust to move below the carousel */
+  position: absolute;
+  bottom: -30px; /* Adjust the value to position below the carousel */
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  align-items: center;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 0;
+  margin-right: 0;
+  margin-bottom: 1rem;
+  list-style: none;
 }
 
 .carousel-indicators li {
   display: inline-block;
-  margin: 5px;
+  width: 30px;
+  height: 3px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0;
+  transition: opacity 0.6s ease;
 }
 
 .carousel-indicators li img {
-  width: 40px; /* Size of inactive indicators */
-  height: 20px;
+  width: 50px; /* Size of inactive indicators */
+  height: 30px;
   opacity: 0.7;
   transition: all 0.3s ease;
   border-radius: 4px; /* Optional: Add border radius for better aesthetics */
 }
 
 .carousel-indicators li.active img {
+  width: 60px; /* Size of active indicator */
+  height: 40px;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .carousel-indicators li img {
+    width: 40px;
+    height: 25px;
+  }
+  .carousel-indicators li.active img {
+    width: 50px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-indicators li img {
+    width: 30px;
+    height: 20px;
+  }
+  .carousel-indicators li.active img {
+    width: 40px;
+    height: 25px;
+  }
+}
+ {
   width: 50px; /* Size of active indicator */
   height: 30px;
   opacity: 1;
