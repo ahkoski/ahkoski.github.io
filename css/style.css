@@ -2117,16 +2117,16 @@ figure figcaption {
 }
 
 .carousel-indicators li img {
-  width: 50px; /* Size of inactive indicators */
-  height: 30px;
+  width: 40px; /* Size of inactive indicators */
+  height: 20px;
   opacity: 0.7;
   transition: all 0.3s ease;
   border-radius: 4px; /* Optional: Add border radius for better aesthetics */
 }
 
 .carousel-indicators li.active img {
-  width: 60px; /* Size of active indicator */
-  height: 40px;
+  width: 50px; /* Size of active indicator */
+  height: 30px;
   opacity: 1;
 }
 
