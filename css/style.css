@@ -2114,13 +2114,10 @@ figure figcaption {
   list-style: none;
 }
 
-
 .carousel-indicators li {
   display: inline-block;
   margin: 5px;
 }
-
-
 
 /* width: Size of inactive indicators */
 /* border radius Optional: Add border radius for better aesthetics */
@@ -2138,8 +2135,6 @@ figure figcaption {
   height: 30px;
   opacity: 1;
 }
-
-
 
 @media (max-width: 768px) {
   .carousel-indicators li img {
@@ -2162,4 +2157,3 @@ figure figcaption {
     height: 20px;
   }
 }
-
