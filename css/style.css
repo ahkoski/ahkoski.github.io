@@ -2114,12 +2114,12 @@ figure figcaption {
 
 .carousel-indicators li {
   display: inline-block;
-  width: 30px;
-  height: 3px;
+  width: auto;
+  height: auto;
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
   border: 0;
   transition: opacity 0.6s ease;
 }
@@ -2135,33 +2135,6 @@ figure figcaption {
 .carousel-indicators li.active img {
   width: 60px; /* Size of active indicator */
   height: 40px;
-  opacity: 1;
-}
-
-@media (max-width: 768px) {
-  .carousel-indicators li img {
-    width: 40px;
-    height: 25px;
-  }
-  .carousel-indicators li.active img {
-    width: 50px;
-    height: 30px;
-  }
-}
-
-@media (max-width: 576px) {
-  .carousel-indicators li img {
-    width: 30px;
-    height: 20px;
-  }
-  .carousel-indicators li.active img {
-    width: 40px;
-    height: 25px;
-  }
-}
- {
-  width: 50px; /* Size of active indicator */
-  height: 30px;
   opacity: 1;
 }
 
