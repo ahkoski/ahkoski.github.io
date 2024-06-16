@@ -2136,6 +2136,7 @@ figure figcaption {
   opacity: 1;
 }
 
+/*
 @media (max-width: 768px) {
   .carousel-indicators li img {
     width: 30px;
@@ -2157,3 +2158,4 @@ figure figcaption {
     height: 20px;
   }
 }
+*/
