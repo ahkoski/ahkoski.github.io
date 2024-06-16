@@ -2098,13 +2098,14 @@ figure figcaption {
     .single-text .owl-dots .owl-dot.active > span {
       background-color: #2a2731 ; }
 
-/**
-/* Add or adjust this section in your existing style.css file */
 
+/* Add or adjust this section in your existing style.css file */
+/* Adjust bottom value to position the indicators */
+/*
 .carousel-indicators {
   position: absolute;
-  /*bottom: -50px; /* Adjust this value to position the indicators */
-  /*left: 50%;*/
+  bottom: -50px; 
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
@@ -2114,25 +2115,36 @@ figure figcaption {
   list-style: none;
 }
 
+
 .carousel-indicators li {
   display: inline-block;
   margin: 5px;
 }
 
+*/
+
+/* width: Size of inactive indicators */
+/* border radius Optional: Add border radius for better aesthetics */
+/*
 .carousel-indicators li img {
-  width: 40px; /* Size of inactive indicators */
+  width: 40px; 
   height: 25px;
   opacity: 0.7;
   transition: all 0.3s ease;
-  border-radius: 4px; /* Optional: Add border radius for better aesthetics */
+  border-radius: 4px; 
 }
+*/
 
+/* width: Size of active indicator */
+/*
 .carousel-indicators li.active img {
-  width: 50px; /* Size of active indicator */
+  width: 50px; 
   height: 30px;
   opacity: 1;
 }
+*/
 
+/*
 @media (max-width: 768px) {
   .carousel-indicators li img {
     width: 30px;
@@ -2154,4 +2166,4 @@ figure figcaption {
     height: 20px;
   }
 }
-**/
+*/
