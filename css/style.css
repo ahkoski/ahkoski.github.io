@@ -2100,10 +2100,13 @@ figure figcaption {
 
 
 .carousel-indicators {
+  position: relative;
+  bottom: -20px; /* Adjust to move below the carousel */
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   justify-content: center;
-  margin-top: 20px; /* Adjust based on your design */
- 
+  align-items: center;
 }
 
 .carousel-indicators li {
