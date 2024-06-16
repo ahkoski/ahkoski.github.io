@@ -2097,3 +2097,24 @@ figure figcaption {
       background-color: rgba(255, 255, 255, 0.5); }
     .single-text .owl-dots .owl-dot.active > span {
       background-color: #2a2731 ; }
+
+
+.carousel-indicators li img {
+  width: 60px;
+  height: 40px;
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.carousel-indicators li.active img {
+  opacity: 1;
+}
+
+.carousel-indicators {
+  bottom: -60px; /* Adjust based on your design */
+}
+
+.carousel-inner {
+  margin-bottom: 60px; /* Adjust based on your design */
+}
+
