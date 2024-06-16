@@ -2101,7 +2101,6 @@ figure figcaption {
 
 .carousel-indicators {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px; /* Adjust based on your design */
 }
@@ -2116,7 +2115,7 @@ figure figcaption {
   height: 40px;
   display: inline-block;
   opacity: 0.7;
-  border-radius: 4px; /* Optional: Add border radius for better aesthetics */
+ /* border-radius: 4px; Optional: Add border radius for better aesthetics */
 }
 
 .carousel-indicators li.active img {
