@@ -2103,9 +2103,10 @@ figure figcaption {
 /* bottom: Adjust this value to position the indicators */
 .carousel-indicators {
   position: absolute;
-  bottom: -50px; 
-  /%left: 50%;*/
+  bottom: -50px; /* Adjust this value to position the indicators */
+  /*left: 50%;*/
   transform: translateX(95%);
+
   display: flex;
   justify-content: center;
   padding-left: 0;
@@ -2116,7 +2117,7 @@ figure figcaption {
 
 .carousel-indicators li {
   display: inline-block;
-  margin: 5px;
+  margin: 25px;
 }
 
 /*width: Size of inactive indicators */
