@@ -2103,8 +2103,7 @@ figure figcaption {
   display: flex;
   justify-content: center;
   margin-top: 20px; /* Adjust based on your design */
-  overflow-x: auto;
-  white-space: nowrap;
+ 
 }
 
 .carousel-indicators li {
