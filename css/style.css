@@ -2101,7 +2101,6 @@ figure figcaption {
 
 /* Add or adjust this section in your existing style.css file */
 /* Adjust bottom value to position the indicators */
-/*
 .carousel-indicators {
   position: absolute;
   bottom: -50px; 
@@ -2121,11 +2120,10 @@ figure figcaption {
   margin: 5px;
 }
 
-*/
+
 
 /* width: Size of inactive indicators */
 /* border radius Optional: Add border radius for better aesthetics */
-/*
 .carousel-indicators li img {
   width: 40px; 
   height: 25px;
@@ -2133,7 +2131,6 @@ figure figcaption {
   transition: all 0.3s ease;
   border-radius: 4px; 
 }
-*/
 
 /* width: Size of active indicator */
 .carousel-indicators li.active img {
