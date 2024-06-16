@@ -2099,22 +2099,40 @@ figure figcaption {
       background-color: #2a2731 ; }
 
 
+.carousel-indicators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px; /* Adjust based on your design */
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  margin: 5px;
+}
+
 .carousel-indicators li img {
   width: 60px;
   height: 40px;
   display: inline-block;
   opacity: 0.7;
+  border-radius: 4px; /* Optional: Add border radius for better aesthetics */
 }
 
 .carousel-indicators li.active img {
   opacity: 1;
 }
 
-.carousel-indicators {
-  bottom: -60px; /* Adjust based on your design */
+@media (max-width: 768px) {
+  .carousel-indicators li img {
+    width: 50px;
+    height: 30px;
+  }
 }
 
-.carousel-inner {
-  margin-bottom: 60px; /* Adjust based on your design */
+@media (max-width: 576px) {
+  .carousel-indicators li img {
+    width: 40px;
+    height: 20px;
+  }
 }
-
