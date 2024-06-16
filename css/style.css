@@ -2136,15 +2136,14 @@ figure figcaption {
 */
 
 /* width: Size of active indicator */
-/*
 .carousel-indicators li.active img {
   width: 50px; 
   height: 30px;
   opacity: 1;
 }
-*/
 
-/*
+
+
 @media (max-width: 768px) {
   .carousel-indicators li img {
     width: 30px;
@@ -2166,4 +2165,4 @@ figure figcaption {
     height: 20px;
   }
 }
-*/
+
