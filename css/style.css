@@ -2091,3 +2091,15 @@ figure figcaption {
       background-color: rgba(255, 255, 255, 0.5); }
     .single-text .owl-dots .owl-dot.active > span {
       background-color: #2a2731 ; }
+
+
+
+/* Ensure no icons are displayed in the navigation */
+.site-menu-toggle .icon-menu,
+.nav-link:before,
+.nav-link:after,
+.site-navigation .site-menu > li > a::after,
+.site-navbar .site-navigation .site-menu > li > a::before {
+  display: none !important;
+  content: none !important;
+}
