@@ -305,9 +305,15 @@ body:after {
         position: relative;
         padding-right: 20px; }
         .site-navbar .site-navigation .site-menu .has-children > a:before {
-  content: none; /* This removes the icon */
-}
-
+          position: absolute;
+          content: "\e313";
+          font-size: 16px;
+          top: 50%;
+          right: 0;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          font-family: 'icomoon'; }
       .site-navbar .site-navigation .site-menu .has-children .dropdown {
         visibility: hidden;
         opacity: 0;
@@ -2091,15 +2097,3 @@ figure figcaption {
       background-color: rgba(255, 255, 255, 0.5); }
     .single-text .owl-dots .owl-dot.active > span {
       background-color: #2a2731 ; }
-
-
-
-/* Ensure no icons are displayed in the navigation */
-.site-menu-toggle .icon-menu,
-.nav-link:before,
-.nav-link:after,
-.site-navigation .site-menu > li > a::after,
-.site-navbar .site-navigation .site-menu > li > a::before {
-  display: none !important;
-  content: none !important;
-}
