@@ -2103,7 +2103,7 @@ figure figcaption {
 
 .carousel-indicators {
   position: absolute;
-  bottom: -50px; /* Adjust this value to position the indicators */
+  /*bottom: -50px; /* Adjust this value to position the indicators */
   left: 50%;
 transform: translateX(-50%);
   display: flex;
