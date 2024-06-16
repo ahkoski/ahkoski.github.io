@@ -2099,11 +2099,13 @@ figure figcaption {
       background-color: #2a2731 ; }
 
 
+/* Add or adjust this section in your existing style.css file */
+
 .carousel-indicators {
   position: absolute;
-  bottom: -50px; /* Adjust this value to position the indicators */
+  bottom: -0px; /* Adjust this value to position the indicators */
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-0%);
   display: flex;
   justify-content: center;
   padding-left: 0;
