@@ -2135,7 +2135,6 @@ figure figcaption {
   width: 50px; 
   height: 30px;
   opacity: 1;
-  background-color: #FF0000
 }
 
 @media (max-width: 768px) {
