@@ -1,0 +1,47 @@
+{
+ "index.html": {
+  "title": "Amanda Koski | Instructional Designer",
+  "desc": "Amanda Koski designs learning that helps people embrace new technology, build new skills, and lead through what’s next."
+ },
+ "work.html": {
+  "title": "Work | Amanda Koski",
+  "desc": "Case studies, playable courses, videos, and graphics by Amanda Koski."
+ },
+ "about.html": {
+  "title": "About | Amanda Koski",
+  "desc": "About Amanda Koski: experience, tools, certifications, and education."
+ },
+ "projects/adapting-to-change.html": {
+  "title": "Adapting to Change | Amanda Koski",
+  "desc": "A scenario-based eLearning experience that helps employees understand how people move through change, then practice what to do at each stage through five arcade-style mini-games.",
+  "image": "img/covers/adapting-to-change.jpg"
+ },
+ "projects/assistant-enrichment.html": {
+  "title": "Assistant Enrichment Program | Amanda Koski",
+  "desc": "A firm-wide, gamified skills program for legal assistants, combining eLearning, video, and live webinars, including an adventure-themed course on the firm’s document management system.",
+  "image": "img/covers/assistant-enrichment.jpg"
+ },
+ "projects/foundations-of-ai.html": {
+  "title": "Foundations of AI in the Workplace | Amanda Koski",
+  "desc": "A self-paced introduction to AI that takes employees from “what is AI?” to writing a useful prompt, with a focus on using the company’s enterprise AI tool safely and responsibly.",
+  "image": "img/covers/foundations-of-ai.jpg"
+ },
+ "projects/leading-through-change.html": {
+  "title": "Leading Through Change & Transition | Amanda Koski",
+  "desc": "A highly interactive 60-minute virtual session that helps people leaders understand what their teams go through during change, and practice coaching them through it.",
+  "image": "img/covers/leading-through-change.jpg"
+ },
+ "projects/zengrc-adoption.html": {
+  "title": "Making new features stick | Amanda Koski",
+  "desc": "How in-app guidance, microlearning, a customer academy, and a rebuilt knowledge base helped customers and go-to-market teams adopt new features faster.",
+  "image": "img/covers/zengrc-adoption.jpg"
+ },
+ "404.html": {
+  "title": "Page not found | Amanda Koski",
+  "desc": "This page could not be found."
+ },
+ "behind-the-scenes.html": {
+  "title": "Behind the scenes | Amanda Koski",
+  "desc": "A hidden behind-the-scenes look at how Amanda Koski designs learning."
+ }
+}
